@@ -7,7 +7,7 @@ public class Circle extends Shape {
     }
 
 
-//hej
+//hej d
     @Override
     public void redraw()
     {
