@@ -1,14 +1,27 @@
+import java.util.Scanner;
+
+import static java.lang.Math.sqrt;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Person p1 = new Person("Ea", 20, 100);
-        System.out.println(p1.getName());
-        System.out.println(p1.getAge());
+        double x;
+        double y;
+        double z;
 
+        Scanner scanner = new Scanner(System.in);
 
-        Student s1 = new Student("Jonas", 22, 101);
-        System.out.println(s1.getStudentId());
+        System.out.println("Hvad er x");
+        x = scanner.nextDouble();
+        System.out.println("Hvad er y");
+        y = scanner.nextDouble();
+
+        z = sqrt(x*x + y*y);
+
+        System.out.println();
+        System.out.println(z);
+
 
     }
 }
