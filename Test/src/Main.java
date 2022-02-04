@@ -1,14 +1,35 @@
+import java.util.Random;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        Person p1 = new Person("Ea", 20, 100);
-        System.out.println(p1.getName());
-        System.out.println(p1.getAge());
+        String day = "Pizza";
 
-
-        Student s1 = new Student("Jonas", 22, 101);
-        System.out.println(s1.getStudentId());
-
+        switch (day) {
+            case "Sunday":
+                System.out.println("It is Sunday");
+                break;
+            case "Monday":
+                System.out.println("It is Monday");
+                break;
+            case "Tuesday":
+                System.out.println("It is Tuesday");
+                break;
+            case "Wednesday":
+                System.out.println("It is Wednesday");
+                break;
+            case "Thursday":
+                System.out.println("It is Thursday");
+                break;
+            case "Friday":
+                System.out.println("It is Friday");
+                break;
+            case "Saturday":
+                System.out.println("It is Saturday");
+                break;
+            default:
+                System.out.println(day + " is not a day");
+        }
     }
 }
