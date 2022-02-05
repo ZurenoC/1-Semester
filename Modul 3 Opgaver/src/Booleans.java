@@ -11,9 +11,26 @@ public class Booleans {
         boolean requiredReading = false;
         boolean shouldBuy = price < budget && requiredReading;
         System.out.println(shouldBuy);
+
+
+        int dice = 2;
+
+        boolean biggerThan3 = dice >= 3;
+
+        System.out.println(biggerThan3);
+
+
+
+
+
+
+
+
+
+
     }
 
-    ;
+
 
 
 

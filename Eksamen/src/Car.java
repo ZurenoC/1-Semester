@@ -11,6 +11,9 @@ public class Car extends Vehicle implements Price {
 
     }
 
+
+    Price price = new Car("Bently",24);
+
     @Override
     public void price() {
 
